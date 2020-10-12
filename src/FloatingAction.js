@@ -674,8 +674,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center"
   },
-  rightButton: {},
-  leftButton: {},
+   rightButton: {
+    position:"absolute",
+    top:"80%"
+  },
+  leftButton: {
+    position:"absolute",
+    top:"80%"
+  },
   centerButton: {
     left: DEVICE_WIDTH / 2 - 28
   },
