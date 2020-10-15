@@ -112,7 +112,7 @@ class FloatingActionItem extends Component {
 
     const propStyles = {
       tintColor: tintColor,
-      backgroundColor: color,
+      backgroundColor: "#ffff",
       width: buttonSize,
       height: buttonSize,
       borderRadius: buttonSize / 2
@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
   textContainer: {
     paddingHorizontal: 8,
     elevation: 5,
-    borderRadius: 4,
+    borderRadius: 8,
     height: 22
   },
   leftTextContainer: {
@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
   button: {
     alignItems: "center",
     justifyContent: "center",
-    elevation: 5
+    elevation: 5,
   },
   iconLogo: {
     resizeMode: "cover",
